@@ -33,10 +33,10 @@ while not ok:
 
     (+) - SOMA
     (-) - SUBTRAÇÃO
-    () - MULTIPLICAÇÃO
+    (*) - MULTIPLICAÇÃO
     (/) - DIVISÃO''')
     conta = input()
-    if conta != '+' and conta != '-' and conta != '' and conta !='/':
+    if conta != '+' and conta != '-' and conta != '*' and conta !='/':
       print('Digite uma forma válida')
     else:
       ok = True
