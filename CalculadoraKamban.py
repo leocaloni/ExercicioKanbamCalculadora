@@ -42,3 +42,12 @@ while not ok:
       ok = True
   except:
     print('Digite uma forma válida')
+    
+if conta == '+':
+  print(f'Soma = {soma(n1, n2):.2f}')
+elif conta == '-':
+  print(f'Subtração = {subtracao(n1, n2):.2f}')
+elif conta == '*':
+  print(f'Multiplicação = {multiplicacao(n1, n2):.2f}')
+elif conta == '/':
+  print(f'Divisão = {divisao(n1, n2):.2f}')
